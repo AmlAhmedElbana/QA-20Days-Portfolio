@@ -1,0 +1,7 @@
+# Binary / large
+*.mp4
+*.apk
+*.jmxout
+# OS
+.DS_Store
+Thumbs.db
