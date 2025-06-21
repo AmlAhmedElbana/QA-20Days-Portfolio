@@ -11,4 +11,4 @@ Folder Map
 
 **Day-by-Day Log**  
 | Day | Status | PR Link | Summary |
-| 01  | ISTQB Ch. 1–3 + Glossary | 🚧 In Progress | – | Reviewing syllabus and building glossary |
+| 01  | ISTQB Ch. 1–3 + Glossary | 🚧 In Progress | [#1]https://github.com/AmlAhmedElbana/QA-20Days-Portfolio/pull/2 | Reviewing syllabus and building glossary |
