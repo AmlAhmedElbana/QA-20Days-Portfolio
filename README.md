@@ -11,5 +11,6 @@ Folder Map
 
 **Day-by-Day Log**  
 | Day | Status | PR Link | Summary |
+|-----|--------|---------|---------|
 | 01  | Done | https://github.com/AmlAhmedElbana/QA-20Days-Portfolio/pull/2 | Reviewing syllabus and building glossary |
 | 02  | Done | https://github.com/AmlAhmedElbana/QA-20Days-Portfolio/pull/5 | 10 test cases using EP & BVA for Login |
