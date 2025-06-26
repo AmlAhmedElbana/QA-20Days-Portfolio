@@ -49,3 +49,29 @@
 ---
 
 ✅ Total: ~30 core terms covering the 3 chapters.
+
+
+## Chapter 4 – Test Analysis and Design
+### 🧩 Decision Table & State Transition Terms
+
+- **Condition**:  
+  A specific input, state, or scenario that affects the outcome of a decision.  
+  Example: "Is the user logged in?" (Yes/No)
+
+- **Rule**:  
+  A unique combination of conditions that defines a single path in a decision table.  
+  Each rule leads to a specific outcome (action).  
+  Example: Rule 3 = Logged in: Yes, Cart: Yes, Payment: No
+
+- **Action**:  
+  The system's response or output triggered by a specific rule.  
+  Example: “Allow Checkout” or “Display Error: Missing Payment Info”
+
+- **Event**:  
+  An occurrence that causes a change in the system state.  
+  Often represents a user action.  
+  Example: Clicking "Add to Cart", "Finish", or "Cancel"
+
+- **Transition**:  
+  The movement from one state to another triggered by an event.  
+  Example: From [Checkout Info] to [Overview] after clicking "Continue"
