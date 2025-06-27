@@ -15,3 +15,4 @@ Folder Map
 | 01  | Done | https://github.com/AmlAhmedElbana/QA-20Days-Portfolio/pull/2 | Reviewing syllabus and building glossary |
 | 02  | Done | https://github.com/AmlAhmedElbana/QA-20Days-Portfolio/pull/5 | 10 test cases using EP & BVA for Login |
 | 03  | Done | https://github.com/AmlAhmedElbana/QA-20Days-Portfolio/pull/6 | Full coverage of conditions & states   |
+| 04  | Done | https://github.com/AmlAhmedElbana/QA-20Days-Portfolio/pull/7 | Bug Life-Cycle + Jira Hands-on |
