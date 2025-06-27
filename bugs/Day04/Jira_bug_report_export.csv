@@ -1,0 +1,41 @@
+Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project lead id,Project description,Priority,Resolution,Assignee,Assignee Id,Reporter,Reporter Id,Creator,Creator Id,Created,Updated,Last Viewed,Resolved,Due date,Votes,Description,Environment,Watchers,Watchers Id,Original estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Attachment,Custom field (Actual end),Custom field (Actual start),Custom field (Atlassian project),Custom field (Atlassian project status),Custom field (Change reason),Custom field (Change risk),Custom field (Change type),Custom field (Comments),Custom field (Delivery progress),Custom field (Delivery status),Custom field (Development),Custom field (Epic Color),Custom field (Epic Name),Custom field (Epic Status),Custom field (Goals),Custom field (Idea archived),Custom field (Idea archived on),Custom field (Impact),Custom field (Insights),Custom field (Issue color),Custom field (Linked items),Custom field (Locked forms),Custom field (Open forms),Custom field (Project overview key),Custom field (Project overview status),Custom field (Rank),Custom field (Request Type),Custom field (Sentiment),Custom field (Severity),Custom field (Start date),Custom field (StepsToReproduce),Custom field (Story Points),Custom field (Story point estimate),Custom field (Submitted forms),Custom field (Target end),Custom field (Target start),Custom field (Team),Custom field (Total forms),Custom field (Vulnerability),Custom field ([CHART] Date of First Response),Custom field ([CHART] Time in Status),Status Category,Status Category Changed
+Navbar overlaps,Q2DP-3,10035,Bug,To Do,Q2DP,QA-20 Days-Portfolio ,software,Aml Ahmed Elbana,712020:d7610bbc-79d6-4f50-9ce0-24a631ec5f4f,,Medium,,,,Aml Ahmed Elbana,712020:d7610bbc-79d6-4f50-9ce0-24a631ec5f4f,Aml Ahmed Elbana,712020:d7610bbc-79d6-4f50-9ce0-24a631ec5f4f,28/Jun/25 12:18 AM,28/Jun/25 12:26 AM,28/Jun/25 12:26 AM,,,0,"Navbar overlaps carousel and text disappears on 990x382 screen size
+
+Expected Result:
+
+         Navbar should remain visually distinct and not overlap carousel
+ Menu text should remain readable on all screen sizes
+
+Actual Result:
+
+          Navbar floats over the carousel images
+Menu text is white and becomes unreadable due to background conflict
+
+       ",Chrome V. 138.0.7204.49                                                                                                 Windows 10                                                                                                                       Simulated device: Custom viewport,Aml Ahmed Elbana,712020:d7610bbc-79d6-4f50-9ce0-24a631ec5f4f,,,,,,,,,28/Jun/25 12:26 AM;e99806eb-8ffe-4fc3-8ee9-82a307b1b03c;Screenshot 2025-06-27 224714.jpg;https://aamlalbna.atlassian.net/rest/api/3/attachment/content/10000,,,,,,,,,,,,,,,,,,,,,,,,,,0|i0001r:,,,Major ,,"1- Open DemoBlaze website
+2- Click right
+3- Choose inspect from the drop menu
+4- Click ctrl+shift+M                                                                                                       5- Set screen dimensions to 990 × 382 px                                                                           6-  Observe the Navbar and the background image",,,,,,,,,,,To Do,28/Jun/25 12:18 AM
+Login accepts 3-character password,Q2DP-2,10034,Bug,To Do,Q2DP,QA-20 Days-Portfolio ,software,Aml Ahmed Elbana,712020:d7610bbc-79d6-4f50-9ce0-24a631ec5f4f,,Medium,,,,Aml Ahmed Elbana,712020:d7610bbc-79d6-4f50-9ce0-24a631ec5f4f,Aml Ahmed Elbana,712020:d7610bbc-79d6-4f50-9ce0-24a631ec5f4f,28/Jun/25 12:13 AM,28/Jun/25 12:16 AM,28/Jun/25 12:15 AM,,,0,"When filling the password with any 3-characters, it accepts the password
+
+Expected Result:
+
+        The system should display an error message ""Password should not  be less than 4 characters""
+
+Actual Result:
+
+         The user can login",Chrome V. 138.0.7204.49                                                                                                 Windows 10,Aml Ahmed Elbana,712020:d7610bbc-79d6-4f50-9ce0-24a631ec5f4f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i0001j:,,,Minor,,"1- Click on the login button
+2- Fill a username ""Aml""
+3- Fill a password ""123""
+4- Click on login button",,,,,,,,,,,To Do,28/Jun/25 12:13 AM
+Login accepts 2-characters username,Q2DP-1,10033,Bug,To Do,Q2DP,QA-20 Days-Portfolio ,software,Aml Ahmed Elbana,712020:d7610bbc-79d6-4f50-9ce0-24a631ec5f4f,,Medium,,,,Aml Ahmed Elbana,712020:d7610bbc-79d6-4f50-9ce0-24a631ec5f4f,Aml Ahmed Elbana,712020:d7610bbc-79d6-4f50-9ce0-24a631ec5f4f,27/Jun/25 11:09 PM,28/Jun/25 12:14 AM,28/Jun/25 12:10 AM,,,0,"When filling the username with any 2-characters, it accepts the username
+
+Expected Result:
+
+   The system should display an error message ""User name should not be less than 3 characters""
+
+Actual Result:
+
+    The user can login",Chrome V. 138.0.7204.49                                                                                                 Windows 10  ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i0001b:,,,Minor,,"1- Click on the login button
+2- Fill a username ""Am""
+3- Fill a correct password.
+4- Click on login button",,,,,,,,,,,To Do,27/Jun/25 11:09 PM
