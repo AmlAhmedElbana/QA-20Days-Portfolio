@@ -75,3 +75,11 @@
 - **Transition**:  
   The movement from one state to another triggered by an event.  
   Example: From [Checkout Info] to [Overview] after clicking "Continue"
+
+### Exploratory Testing Terms
+
+- **Charter**: A mission statement defining what to explore and why.
+- **Session**: A dedicated, uninterrupted block of time spent exploring the system.
+- **Time-box**: The fixed duration of a session, usually 60–90 minutes.
+- **Test Ideas**: Guiding thoughts or areas to explore without a fixed script.
+- **Debrief**: A structured reflection after the session to review findings and plan improvements.
