@@ -1,0 +1,126 @@
+Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project lead id,Project description,Priority,Resolution,Assignee,Assignee Id,Reporter,Reporter Id,Creator,Creator Id,Created,Updated,Last Viewed,Resolved,Due date,Votes,Description,Environment,Watchers,Watchers Id,Original estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Attachment,Custom field (Actual end),Custom field (Actual start),Custom field (Atlassian project),Custom field (Atlassian project status),Custom field (Change reason),Custom field (Change risk),Custom field (Change type),Custom field (Comments),Custom field (Delivery progress),Custom field (Delivery status),Custom field (Development),Custom field (Epic Color),Custom field (Epic Name),Custom field (Epic Status),Custom field (Goals),Custom field (Idea archived),Custom field (Idea archived on),Custom field (Impact),Custom field (Insights),Custom field (Issue color),Custom field (Linked items),Custom field (Locked forms),Custom field (Open forms),Custom field (Project overview key),Custom field (Project overview status),Custom field (Rank),Custom field (Request Type),Custom field (Sentiment),Custom field (Severity),Custom field (Start date),Custom field (StepsToReproduce),Custom field (Story Points),Custom field (Story point estimate),Custom field (Submitted forms),Custom field (Target end),Custom field (Target start),Custom field (Team),Custom field (Total forms),Custom field (Vulnerability),Custom field ([CHART] Date of First Response),Custom field ([CHART] Time in Status),Status Category,Status Category Changed
+Name accepts numbers/ special characters,Q2DP-8,10070,Bug,To Do,Q2DP,QA-20 Days-Portfolio ,software,Aml Ahmed Elbana,712020:d7610bbc-79d6-4f50-9ce0-24a631ec5f4f,,High,,,,Aml Ahmed Elbana,712020:d7610bbc-79d6-4f50-9ce0-24a631ec5f4f,Aml Ahmed Elbana,712020:d7610bbc-79d6-4f50-9ce0-24a631ec5f4f,7/1/2025 1:05,7/1/2025 1:18,7/1/2025 1:05,,,0,"Name fields accepts numbers and special characters.
+
+*Expected Result:*
+
+the system displays an error message “invalid name“.
+
+*Actual Result:*
+
+the names were accepted.","Chrome v.138
+
+Windows 10",Aml Ahmed Elbana,712020:d7610bbc-79d6-4f50-9ce0-24a631ec5f4f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i0002v:,,,Major,,"1- Go to [https://opensource-demo.orangehrmlive.com/web/index.php/auth/login|https://opensource-demo.orangehrmlive.com/web/index.php/auth/login|smart-link]
+
+2- Login with username “Admin“ and password “admin123“
+
+3- Click on the Login button
+
+4- Navigate to My Info
+
+5- Go to Personal Details page
+
+6- Fill First name with “123“
+
+7- Fill the Middle name with “122#“
+
+8- Fill the Last name with “122“
+
+9- fill the rest of fields with valid data
+
+10- Click on Save button.",,,,,,,,,,,To Do,7/1/2025 1:05
+Future date of birth,Q2DP-7,10069,Bug,To Do,Q2DP,QA-20 Days-Portfolio ,software,Aml Ahmed Elbana,712020:d7610bbc-79d6-4f50-9ce0-24a631ec5f4f,,High,,,,Aml Ahmed Elbana,712020:d7610bbc-79d6-4f50-9ce0-24a631ec5f4f,Aml Ahmed Elbana,712020:d7610bbc-79d6-4f50-9ce0-24a631ec5f4f,7/1/2025 1:00,7/1/2025 1:17,7/1/2025 1:00,,,0,"DOB accepts Future dates.
+
+*Expected Result:*
+
+the system displays an error message.
+
+*Actual Result:*
+
+The future date was accepted.","Chrome v.138
+
+Windows 10",Aml Ahmed Elbana,712020:d7610bbc-79d6-4f50-9ce0-24a631ec5f4f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i0002n:,,,Major,,"1- Go to [https://opensource-demo.orangehrmlive.com/web/index.php/auth/login|https://opensource-demo.orangehrmlive.com/web/index.php/auth/login|smart-link]
+
+2- Login with username “Admin“ and password “admin123“
+
+3- Click on the Login button
+
+4- Navigate to My Info
+
+5- Go to Personal Details page
+
+6- Fill the Date Of Birth field with “01/07/2025“
+
+7- Fill the rest of fields with valid data.
+
+8- Click on Save button.",,,,,,,,,,,To Do,7/1/2025 1:00
+Invalid email format,Q2DP-6,10068,Bug,To Do,Q2DP,QA-20 Days-Portfolio ,software,Aml Ahmed Elbana,712020:d7610bbc-79d6-4f50-9ce0-24a631ec5f4f,,High,,,,Aml Ahmed Elbana,712020:d7610bbc-79d6-4f50-9ce0-24a631ec5f4f,Aml Ahmed Elbana,712020:d7610bbc-79d6-4f50-9ce0-24a631ec5f4f,7/1/2025 0:54,7/1/2025 1:18,7/1/2025 0:54,,,0,"Work email accepts invalid format.
+
+*Expected Result:*
+
+the system displays a message “invalid email format“.
+
+*Actual Result:*
+
+the invalid email was accepted.","Chrome v.138
+
+Windows 10",Aml Ahmed Elbana,712020:d7610bbc-79d6-4f50-9ce0-24a631ec5f4f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i0002f:,,,Major,,"1- Go to [https://opensource-demo.orangehrmlive.com/web/index.php/auth/login|https://opensource-demo.orangehrmlive.com/web/index.php/auth/login|smart-link]
+
+2- Login with username “Admin“ and password “admin123“
+
+3- Click on the Login button
+
+4- Navigate to My Info
+
+5- Go to Contacts Details page
+
+6- fill the Work email field with “lolo@.com“
+
+7- fill the rest of fields with valid data
+
+8- Click on Save button",,,,,,,,,,,To Do,7/1/2025 0:54
+Calendar causes page scroll,Q2DP-5,10067,Bug,To Do,Q2DP,QA-20 Days-Portfolio ,software,Aml Ahmed Elbana,712020:d7610bbc-79d6-4f50-9ce0-24a631ec5f4f,,Medium,,,,Aml Ahmed Elbana,712020:d7610bbc-79d6-4f50-9ce0-24a631ec5f4f,Aml Ahmed Elbana,712020:d7610bbc-79d6-4f50-9ce0-24a631ec5f4f,7/1/2025 0:47,7/1/2025 1:16,7/1/2025 0:48,,,0,"Calendar causes page scroll when selecting year.
+
+*Expected Result:*
+
+Enter the date without scrolling.
+
+*Actual Result:*
+
+Page scroll down.","Chrome v.138
+
+Windows 10",Aml Ahmed Elbana,712020:d7610bbc-79d6-4f50-9ce0-24a631ec5f4f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i00027:,,,Minor,,"1- Go to [https://opensource-demo.orangehrmlive.com/web/index.php/auth/login|https://opensource-demo.orangehrmlive.com/web/index.php/auth/login|smart-link]
+
+2- Login with username “Admin“ and password “admin123“
+
+3- Click on the Login button
+
+4- Navigate to My Info
+
+5- Go to Personal Details page
+
+6- Click on  Date Of Birth field to enter a date
+
+7- Click on year",,,,,,,,,,,To Do,7/1/2025 0:47
+Save button works with empty fields,Q2DP-4,10066,Bug,To Do,Q2DP,QA-20 Days-Portfolio ,software,Aml Ahmed Elbana,712020:d7610bbc-79d6-4f50-9ce0-24a631ec5f4f,,Medium,,,,Aml Ahmed Elbana,712020:d7610bbc-79d6-4f50-9ce0-24a631ec5f4f,Aml Ahmed Elbana,712020:d7610bbc-79d6-4f50-9ce0-24a631ec5f4f,7/1/2025 0:28,7/1/2025 1:15,7/1/2025 0:46,,,0,"Save button works even when all fields are empty.
+
+*Expected Result:*
+
+The system shows an error message that the fields are empty.
+
+*Actual Result:*
+
+Save working successfully and the system displays a message “Updated successfully “.","Chrome v.138
+
+Windows 10",Aml Ahmed Elbana,712020:d7610bbc-79d6-4f50-9ce0-24a631ec5f4f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i0001z:,,,Minor,,"1- Go to [https://opensource-demo.orangehrmlive.com/web/index.php/auth/login|https://opensource-demo.orangehrmlive.com/web/index.php/auth/login|smart-link] 
+
+2- Login with username “Admin“ and password “admin123“
+
+3- Click on the Login button
+
+4- Navigate to My Info
+
+5- Go to Personal Details page
+
+6- Keep all fields empty
+
+7- Click on save button",,,,,,,,,,,To Do,7/1/2025 0:28
