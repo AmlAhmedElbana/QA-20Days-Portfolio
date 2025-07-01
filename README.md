@@ -17,3 +17,4 @@ Folder Map
 | 03  | Done | https://github.com/AmlAhmedElbana/QA-20Days-Portfolio/pull/6 | Full coverage of conditions & states   |
 | 04  | Done | https://github.com/AmlAhmedElbana/QA-20Days-Portfolio/pull/7 | Bug Life-Cycle + Jira Hands-on |
 | 05 | Done | https://github.com/AmlAhmedElbana/QA-20Days-Portfolio/pull/8 | Exploratory Testing + Session Based Testing Management|
+| 06 | Done | https://github.com/AmlAhmedElbana/QA-20Days-Portfolio/pull/9 | high-level requirements and test plan skeleton for OpenCart |
