@@ -18,3 +18,4 @@ Folder Map
 | 04  | Done | https://github.com/AmlAhmedElbana/QA-20Days-Portfolio/pull/7 | Bug Life-Cycle + Jira Hands-on |
 | 05 | Done | https://github.com/AmlAhmedElbana/QA-20Days-Portfolio/pull/8 | Exploratory Testing + Session Based Testing Management|
 | 06 | Done | https://github.com/AmlAhmedElbana/QA-20Days-Portfolio/pull/9 | high-level requirements and test plan skeleton for OpenCart |
+| 07 | Done | https://github.com/AmlAhmedElbana/QA-20Days-Portfolio/pull/10 | Requirements Traceability Matrix v0 |
