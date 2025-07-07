@@ -1,0 +1,33 @@
+# 1) Get the first 5 titles Posts
+curl -s https://jsonplaceholder.typicode.com/posts \
+| jq '.[0:5][] | .title'      
+
+curl https://jsonplaceholder.typicode.com/posts
+
+# 2) Get data of User ID = 3
+curl -i https://jsonplaceholder.typicode.com/users/3
+
+# 3)  Add new Post (POST)
+curl -i -X POST https://jsonplaceholder.typicode.com/posts \
+  -H "Content-Type: application/json" \
+  -d '{"userId": 99, "title": "QA Demo", "body": "sample text"}'
+
+curl -i -X POST https://jsonplaceholder.typicode.com/posts ^
+  -H "Content-Type: application/json" ^
+  -d "{\"userId\": 99, \"title\": \"QA Demo\", \"body\": \"sample text\"}"
+
+
+curl -i -X POST https://jsonplaceholder.typicode.com/posts -H "Content-Type: application/json" -d "{\"userId\": 99, \"title\": \"QA Demo\", \"body\": \"sample text\"}"
+
+
+# 4) Update Post 1 (PUT)
+curl -i -X PUT https://jsonplaceholder.typicode.com/posts/1 \
+  -H "Content-Type: application/json" \
+  -d '{"id":1,"userId":1,"title":"updated","body":"updated"}'
+
+curl -i -X PUT https://jsonplaceholder.typicode.com/posts/1 ^
+  -H "Content-Type: application/json" ^
+  -d '{\"id\":1,\"userId\":1,\"title\":\"updated\",\"body\":\"updated\"}'
+
+# 5) Delete unexist Post  (404)
+curl -i -X DELETE https://jsonplaceholder.typicode.com/posts/9999

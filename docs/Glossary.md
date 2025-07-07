@@ -83,3 +83,14 @@
 - **Time-box**: The fixed duration of a session, usually 60–90 minutes.
 - **Test Ideas**: Guiding thoughts or areas to explore without a fixed script.
 - **Debrief**: A structured reflection after the session to review findings and plan improvements.
+
+### Core HTTP Terminology
+
+- **Method**: The type of request sent to the server (e.g., GET, POST, DELETE...).
+- **Endpoint**: The URL to which the request is sent.
+- **Resource**: The targeted data or element that the request operates on.
+- **Header**: Additional information sent with the request or response.
+- **Body**: The data payload sent with the request (mainly in POST and PUT).
+- **Status Code**: A numeric code indicating the result of the request.
+- **Idempotent**: A property of methods where repeating the same request has no additional effect.
+- **Safe**: A property of methods that do not modify resources (e.g., GET).
