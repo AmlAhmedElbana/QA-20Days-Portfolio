@@ -94,3 +94,9 @@
 - **Status Code**: A numeric code indicating the result of the request.
 - **Idempotent**: A property of methods where repeating the same request has no additional effect.
 - **Safe**: A property of methods that do not modify resources (e.g., GET).
+
+### Ch-5 – Test Management
+- Test Plan: describes what to test, how to test, who tests, and when.
+- Entry Criteria: conditions that must be met before testing begins.
+- % Test Progress = (Executed TC ÷ Planned TC) × 100
+- Test Control: comparing actual progress with plan, taking corrective actions.
