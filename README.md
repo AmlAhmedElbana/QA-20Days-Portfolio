@@ -24,4 +24,5 @@ Folder Map
 | 10 | Done | https://github.com/AmlAhmedElbana/QA-20Days-Portfolio/pull/13 | Postman Basics + Student Expert Artifacts|
 | 11 | Done | https://github.com/AmlAhmedElbana/QA-20Days-Portfolio/pull/14 | Advanced Postman tests with Newman report |
 | 12 | Done | https://github.com/AmlAhmedElbana/QA-20Days-Portfolio/pull/15 | Data Driven Test |
+| 13 | Done | https://github.com/AmlAhmedElbana/QA-20Days-Portfolio/pull/16 | Authentication + JSON Schema Validation in Postman |
 
