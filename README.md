@@ -26,5 +26,6 @@ Folder Map
 | 12 | Done | https://github.com/AmlAhmedElbana/QA-20Days-Portfolio/pull/15 | Data Driven Test |
 | 13 | Done | https://github.com/AmlAhmedElbana/QA-20Days-Portfolio/pull/16 | Authentication + JSON Schema Validation in Postman |
 | 14 | Done | https://github.com/AmlAhmedElbana/QA-20Days-Portfolio/pull/19 | Mini Project 1: UI ↔ API Integration |
+| 15 | Done | https://github.com/AmlAhmedElbana/QA-20Days-Portfolio/pull/20 | Mobile Testing Basics |
 
 
