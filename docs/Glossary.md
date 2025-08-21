@@ -100,3 +100,34 @@
 - Entry Criteria: conditions that must be met before testing begins.
 - % Test Progress = (Executed TC ÷ Planned TC) × 100
 - Test Control: comparing actual progress with plan, taking corrective actions.
+
+# Day15 - Mobile Testing Terms
+
+## DPI (Dots Per Inch)  
+A measure of screen density that defines how many pixels fit into one inch of screen space.  
+It affects how UI elements are displayed on different devices.
+
+---
+
+## Logcat  
+A command-line tool in Android that collects and displays system logs,  
+including app messages, errors, and stack traces.  
+It is essential for debugging mobile applications.
+
+---
+
+## adb (Android Debug Bridge)  
+A versatile command-line tool that lets you communicate with an Android device.  
+It is used for installing apps, running shell commands, collecting logs, and testing.
+
+---
+
+## ANR (Application Not Responding)  
+A system error in Android that occurs when an app becomes unresponsive  
+to user input for a certain period, usually triggering a pop-up dialog.
+
+---
+
+## Accessibility Scanner  
+An Android tool that analyzes your app’s UI and provides suggestions to improve accessibility,  
+such as better contrast, larger touch targets, or content descriptions.

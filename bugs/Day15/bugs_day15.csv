@@ -1,0 +1,26 @@
+Issue Type,Issue key,Issue id,Summary,Reporter,Reporter Id,Priority,Status,Created,Updated,Environment,Custom field (Severity),Custom field (StepsToReproduce)
+Bug,Q2DP-13,10103,Accessibility (TalkBack),Aml Ahmed Elbana,712020:d7610bbc-79d6-4f50-9ce0-24a631ec5f4f,Medium,To Do,8/21/2025 20:31,8/21/2025 20:33,"Device: Samsung Galaxy J4(SM-J4000F)
+
+OS Version: Android 10
+
+App Version: v7.2.6",High,"# Enable *TalkBack* from device accessibility settings.
+# Navigate across the app (notes list, add button, menu)."
+Bug,Q2DP-12,10102,Incomplete Arabic Localization,Aml Ahmed Elbana,712020:d7610bbc-79d6-4f50-9ce0-24a631ec5f4f,Medium,To Do,8/21/2025 20:27,8/21/2025 20:30,"Device: Samsung Galaxy J4(SM-J4000F)
+
+OS Version: Android 10
+
+App version: v7.2.6",Medium,"# Go to Settings → Change language to Arabic.
+# Browse through menus and notes."
+Bug,Q2DP-11,10101,Unlock not working properly,Aml Ahmed Elbana,712020:d7610bbc-79d6-4f50-9ce0-24a631ec5f4f,Medium,To Do,8/21/2025 20:24,8/21/2025 20:35,"*Device:* Samsung Galaxy J4(SM-J4000F)
+
+*OS Version:* Android 10 
+
+*App Version:* v7.2.6",High,"# Enable app lock with a password.
+# Disable lock/unlock feature from settings.
+# Reopen the app."
+Bug,Q2DP-10,10100,Sorting not working,Aml Ahmed Elbana,712020:d7610bbc-79d6-4f50-9ce0-24a631ec5f4f,Medium,To Do,8/21/2025 20:16,8/21/2025 20:36,"*Device:* Samsung Galaxy J4 (SM-J4000F)
+
+*OS Version:* Android 10
+
+*App Version:* v7.2.6",Medium,"# Add multiple notes/tasks with different titles.
+# From the menu, choose *Sort by title/date*."
